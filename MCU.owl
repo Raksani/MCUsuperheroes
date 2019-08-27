@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/beau/ontologies/2019/7/umcusuperheroes"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/beau/ontologies/2019/7/umcusuperheroes">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#MCUMovies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MCUSuperheroes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Power"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#actorname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isAlive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#originofpower"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#powerDetail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#realname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ant-Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvengerInfinityWar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlackPanther1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoctorStrange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HawkEye"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IronMan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IronMan1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IronMan2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IronMan3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuickSilver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpiderMan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpiderManFarFromHome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpiderManHomeComing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Starlord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheAvenger1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheIncredibleHulk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thor1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThorTheDarkWorld"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Ant-Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#AvengerInfinityWar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#BlackPanther1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#HawkEye"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#IronMan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#IronMan1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#IronMan2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#IronMan3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#SpiderManFarFromHome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#SpiderManHomeComing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Starlord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#TheAvenger1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#TheIncredibleHulk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Thor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#Thor1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovies"/>
+        <NamedIndividual IRI="#ThorTheDarkWorld"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <NamedIndividual IRI="#Ant-Man"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Ant-Man"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Ant-Man"/>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Ant-Man"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Ant-Man"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#AvengerInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#Thor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#TheAvenger1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#Thor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#IronMan1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#AvengerInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#IronMan1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#IronMan2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#IronMan3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#SpiderManHomeComing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#TheAvenger1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#TheIncredibleHulk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#IronMan2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#AvengerInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#IronMan2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#SpiderManFarFromHome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#SpiderManHomeComing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Starlord"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Starlord"/>
+        <NamedIndividual IRI="#AvengerInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Starlord"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Starlord"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#Thor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#AvengerInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#TheAvenger1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#Thor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#ThorTheDarkWorld"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <Class IRI="#MCUSuperheroes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPower"/>
+        <Class IRI="#MCUSuperheroes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <Class IRI="#MCUSuperheroes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#firstIntroductionIn"/>
+        <Class IRI="#MCUMovies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPower"/>
+        <Class IRI="#Power"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <Class IRI="#MCUMovies"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#actorname"/>
+        <Class IRI="#MCUSuperheroes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAlive"/>
+        <Class IRI="#MCUSuperheroes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#originofpower"/>
+        <Class IRI="#Power"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#powerDetail"/>
+        <Class IRI="#Power"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#realname"/>
+        <Class IRI="#MCUSuperheroes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#MCUMovies"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#actorname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isAlive"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#originofpower"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#powerDetail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#realname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MCUMovies</IRI>
+        <Literal xml:lang="en">a collection of Marvel Cinematic Universe&apos;s movies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MCUSuperheroes</IRI>
+        <Literal xml:lang="en">Marvel Cinematic Universe&apos;s superheroes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Power</IRI>
+        <Literal xml:lang="en">power of superheroes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#actorname</IRI>
+        <Literal xml:lang="en">name of actor who plays as a superhero.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#firstIntroductionIn</IRI>
+        <Literal xml:lang="en">MCU&apos;s superhero has shown firstly in MCU&apos;s movie.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPower</IRI>
+        <Literal xml:lang="en">MCU&apos;s superhero has power.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasShownInMovie</IRI>
+        <Literal xml:lang="en">MCU&apos;s superhero has shown in MCU&apos;s movies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isAlive</IRI>
+        <Literal xml:lang="en">MCU superhero&apos;s life status.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#originofpower</IRI>
+        <Literal xml:lang="en">The origin where superhero&apos;s power comes from.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#powerDetail</IRI>
+        <Literal xml:lang="en">Datail of each superhero&apos;s power.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#realname</IRI>
+        <Literal xml:lang="en">superhero&apos;s real name.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#year</IRI>
+        <Literal xml:lang="en">MCU movie&apos;s released year.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
