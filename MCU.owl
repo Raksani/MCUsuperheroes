@@ -40,9 +40,6 @@
         <DataProperty IRI="#originofpower"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#powerDetail"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#realname"/>
     </Declaration>
     <Declaration>
@@ -58,6 +55,9 @@
         <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ArrowSkill"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#AvengerAgeOfUltron"/>
     </Declaration>
     <Declaration>
@@ -94,16 +94,25 @@
         <NamedIndividual IRI="#CaptainMarvel1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CommunicateWithInsect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DimensionHopping"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#DoctorStrange"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DoctorStrange1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Drax"/>
+        <NamedIndividual IRI="#Durability"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Falcon"/>
+        <NamedIndividual IRI="#FlyingWithAssistance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FlyingWithoutAssistance"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gamora"/>
@@ -121,6 +130,9 @@
         <NamedIndividual IRI="#HawkEye"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#HealingAbility"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Hulk"/>
     </Declaration>
     <Declaration>
@@ -136,19 +148,37 @@
         <NamedIndividual IRI="#IronMan3"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Loki"/>
+        <NamedIndividual IRI="#Laserbeam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magic"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Nebula"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#QuickSilver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Regeneration"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Rocket"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ScarletWitch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SizeManipulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkilledFighter"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SpiderMan"/>
@@ -161,6 +191,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Starlord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Telekinesis"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TheAvenger1"/>
@@ -186,12 +219,6 @@
     <Declaration>
         <NamedIndividual IRI="#Vision"/>
     </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#WarMachine"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#WinterSoldier"/>
-    </Declaration>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Ant-Man"/>
@@ -203,6 +230,10 @@
     <ClassAssertion>
         <Class IRI="#MCUMovies"/>
         <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#ArrowSkill"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovies"/>
@@ -253,6 +284,14 @@
         <NamedIndividual IRI="#CaptainMarvel1"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#CommunicateWithInsect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#DimensionHopping"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#DoctorStrange"/>
     </ClassAssertion>
@@ -261,12 +300,16 @@
         <NamedIndividual IRI="#DoctorStrange1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#Drax"/>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Durability"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#Falcon"/>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#FlyingWithAssistance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#FlyingWithoutAssistance"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -289,6 +332,10 @@
         <NamedIndividual IRI="#HawkEye"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#HealingAbility"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Hulk"/>
     </ClassAssertion>
@@ -309,16 +356,32 @@
         <NamedIndividual IRI="#IronMan3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#Loki"/>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Laserbeam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Magic"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Nebula"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#QuickSilver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Regeneration"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -327,6 +390,14 @@
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#ScarletWitch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SizeManipulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SkilledFighter"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -343,6 +414,10 @@
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Starlord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Telekinesis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovies"/>
@@ -376,18 +451,20 @@
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Vision"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#WarMachine"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#Ant-Man"/>
         <NamedIndividual IRI="#Ant-Man1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Ant-Man"/>
+        <NamedIndividual IRI="#CommunicateWithInsect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Ant-Man"/>
+        <NamedIndividual IRI="#SizeManipulation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -415,6 +492,16 @@
         <NamedIndividual IRI="#BlackPanther1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#SkilledFighter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#BlackPanther"/>
         <NamedIndividual IRI="#AvengerEndgame"/>
@@ -440,6 +527,16 @@
         <NamedIndividual IRI="#IronMan2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Blackwidow"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Blackwidow"/>
+        <NamedIndividual IRI="#SkilledFighter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#Blackwidow"/>
         <NamedIndividual IRI="#AvengerAgeOfUltron"/>
@@ -480,6 +577,21 @@
         <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#HealingAbility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#SkilledFighter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
         <NamedIndividual IRI="#AvengerAgeOfUltron"/>
@@ -520,6 +632,26 @@
         <NamedIndividual IRI="#CaptainMarvel1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#SkilledFighter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#CaptainMarvel"/>
         <NamedIndividual IRI="#AvengerEndgame"/>
@@ -533,6 +665,16 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#DoctorStrange"/>
         <NamedIndividual IRI="#DoctorStrange1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#FlyingWithAssistance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#Magic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -556,63 +698,13 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#firstIntroductionIn"/>
-        <NamedIndividual IRI="#Drax"/>
-        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Drax"/>
-        <NamedIndividual IRI="#AvengerEndgame"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Drax"/>
-        <NamedIndividual IRI="#AvengerInfinityWar"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Drax"/>
-        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Drax"/>
-        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroductionIn"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <NamedIndividual IRI="#AvengerEndgame"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <NamedIndividual IRI="#AvengerInfinityWar"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#Gamora"/>
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Gamora"/>
+        <NamedIndividual IRI="#SkilledFighter"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -638,6 +730,16 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#Groot"/>
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Groot"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Groot"/>
+        <NamedIndividual IRI="#Regeneration"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -663,6 +765,21 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#HawkEye"/>
         <NamedIndividual IRI="#Thor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#ArrowSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#HawkEye"/>
+        <NamedIndividual IRI="#SkilledFighter"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -693,6 +810,16 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#Hulk"/>
         <NamedIndividual IRI="#TheAvenger1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Hulk"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Hulk"/>
+        <NamedIndividual IRI="#HealingAbility"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -780,39 +907,9 @@
         <NamedIndividual IRI="#TheIncredibleHulk"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroductionIn"/>
-        <NamedIndividual IRI="#Loki"/>
-        <NamedIndividual IRI="#Thor1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Loki"/>
-        <NamedIndividual IRI="#AvengerEndgame"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Loki"/>
-        <NamedIndividual IRI="#AvengerInfinityWar"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Loki"/>
-        <NamedIndividual IRI="#TheAvenger1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Loki"/>
-        <NamedIndividual IRI="#Thor1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Loki"/>
-        <NamedIndividual IRI="#ThorRagnarok"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#Loki"/>
-        <NamedIndividual IRI="#ThorTheDarkWorld"/>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+        <NamedIndividual IRI="#FlyingWithoutAssistance"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#firstIntroductionIn"/>
@@ -1063,76 +1160,6 @@
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#Vision"/>
         <NamedIndividual IRI="#TheAvenger1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroductionIn"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <NamedIndividual IRI="#IronMan2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <NamedIndividual IRI="#AvengerEndgame"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <NamedIndividual IRI="#AvengerInfinityWar"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <NamedIndividual IRI="#IronMan2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <NamedIndividual IRI="#IronMan3"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroductionIn"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <NamedIndividual IRI="#Ant-Man1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <NamedIndividual IRI="#AvengerEndgame"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <NamedIndividual IRI="#AvengerInfinityWar"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasShownInMovie"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1150,6 +1177,36 @@
         <Literal>Scott Lang</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#ArrowSkill"/>
+        <Literal>The training is the only thing that makes him special and he also practices a minimum of two hours per day to keep his skills honed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#AvengerAgeOfUltron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#AvengerEndgame"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#AvengerInfinityWar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#BlackPanther"/>
         <Literal>Chadwick Boseman</Literal>
@@ -1163,6 +1220,11 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#BlackPanther"/>
         <Literal>T&apos;Challa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#BlackPanther1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1195,6 +1257,21 @@
         <Literal>Steve Rogers</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#CaptainMarvel"/>
         <Literal>Brie Larson</Literal>
@@ -1208,6 +1285,21 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#CaptainMarvel"/>
         <Literal>Carol Danvers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#CommunicateWithInsect"/>
+        <Literal>ants communicate through psionic/pheromonal/electrical waves transmitted through their antennae in creating cybernetic helmet.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#DimensionHopping"/>
+        <Literal>dimension-hopping via Quantum Tunnel</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1225,34 +1317,24 @@
         <Literal>Stephen Strange</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#actorname"/>
-        <NamedIndividual IRI="#Drax"/>
-        <Literal>Dave Batista</Literal>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#isAlive"/>
-        <NamedIndividual IRI="#Drax"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Durability"/>
+        <Literal>Durability of different kinds such as magic or power from enemies which may comes from thier assisted outfit such as Ironman suit, vibranium outfit,Spiderman suit, and etc. or comes from their own body.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#realname"/>
-        <NamedIndividual IRI="#Drax"/>
-        <Literal>Drax The Destroyer</Literal>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#FlyingWithAssistance"/>
+        <Literal>maybe from thier outfit, wings, or etc.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#actorname"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <Literal>Anthony Mackie</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#isAlive"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#realname"/>
-        <NamedIndividual IRI="#Falcon"/>
-        <Literal>Sam Wilson</Literal>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#FlyingWithoutAssistance"/>
+        <Literal>flying by their own body.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1285,6 +1367,16 @@
         <Literal>Groot</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#HawkEye"/>
         <Literal>Jeremy Renner</Literal>
@@ -1298,6 +1390,11 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#HawkEye"/>
         <Literal>Clint Barton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#HealingAbility"/>
+        <Literal>their skin are able to withstand an amount of injury and heal far quicker than a normal human when harmed maybe comes from the experiments such as Super-Soldier serum (Captain America) and heavy dosed of Gamma radiation (Hulk)</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1330,19 +1427,19 @@
         <Literal>Tony Stark</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#actorname"/>
-        <NamedIndividual IRI="#Loki"/>
-        <Literal>Tom Hiddleston</Literal>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#IronMan1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#isAlive"/>
-        <NamedIndividual IRI="#Loki"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#IronMan2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2010</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#realname"/>
-        <NamedIndividual IRI="#Loki"/>
-        <Literal>Loki</Literal>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#IronMan3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1375,6 +1472,11 @@
         <Literal>Peter Maximoff</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Regeneration"/>
+        <Literal>regenerate after death using a small portion of original body as its basis.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#Rocket"/>
         <Literal>Bradley Cooper</Literal>
@@ -1405,6 +1507,16 @@
         <Literal>Wanda Maximoff</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#SizeManipulation"/>
+        <Literal xml:lang="en">size-changing via Pym Particles and his suit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#SkilledFighter"/>
+        <Literal>Skilled fight comes from their own.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#SpiderMan"/>
         <Literal>Tom Holland</Literal>
@@ -1420,6 +1532,16 @@
         <Literal>Peter Parker</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#SpiderManFarFromHome"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#SpiderManHomeComing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#Starlord"/>
         <Literal>Chris Pratt</Literal>
@@ -1433,6 +1555,16 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#Starlord"/>
         <Literal>Peter Quill</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#TheAvenger1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#TheIncredibleHulk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1465,6 +1597,21 @@
         <Literal>Thor Odinson</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Thor1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#ThorTheDarkWorld"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#Vision"/>
         <Literal>Paul Bettany</Literal>
@@ -1478,36 +1625,6 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#Vision"/>
         <Literal>JARVIS</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#actorname"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <Literal>Don Cheadle</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#isAlive"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#realname"/>
-        <NamedIndividual IRI="#WarMachine"/>
-        <Literal>James Rhodes</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#actorname"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <Literal>Sebastian Stan</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#isAlive"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#realname"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
-        <Literal>Bucky Barnes</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#firstIntroductionIn"/>
@@ -1543,10 +1660,6 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#originofpower"/>
-        <Class IRI="#Power"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#powerDetail"/>
         <Class IRI="#Power"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -1570,10 +1683,6 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#powerDetail"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
         <DataProperty IRI="#realname"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -1581,6 +1690,115 @@
         <DataProperty IRI="#year"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ant-Man1</IRI>
+        <Literal>Scott Lang (Paul Rudd) is introduced to the Marvel Cinematic Universe in Peyton Reed&apos;s Ant-Man hanging pretty close to the bottom rung of society. He has just been released from prison, and while he is a reformed criminal dedicated to doing right by his daughter, nobody will give him a chance. As a result, he is forced to act upon a tip from his former cellmate Luis (Michael Pena), and he decides to burgle the home of noted scientist Dr. Hank Pym (Michael Douglas). Rather than finding any money or valuables, however, what he really gets is a second chance at life.
+
+As it turns out, Hank set up the entire burglary as a test, as he needs Scott&apos;s help. Hank&apos;s former protégé, Darren Cross (Corey Stoll), is close to discovering the secret behind his ultra-secretive shrinking technology, and he needs Scott to wear a specially designed Ant-Man suit to take it from him. With assistance from Hank&apos;s daughter, Hope van Dyne (Evangeline Lilly), Scott trains to shrink down to insect-size, and communicate with ants - all in hopes of sabotaging the unveiling of Cross&apos; innovation. It&apos;s a successful mission in the end, and Scott finds permission to begin again as a hero.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ant-ManAndTheWasp</IRI>
+        <Literal>As Scott Lang balances being both a Super Hero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArrowSkill</IRI>
+        <Literal>a master archer specializing in the use of regular bows, longbows, compound bows, and crossbows with near-perfect accuracy. Firing multiple arrows at a single target in a few seconds, hitting multiple targets in a few quick strokes, and directly hit small targets in the greatest of distances.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvengerAgeOfUltron</IRI>
+        <Literal>When it comes right down to it, the events depicted in Joss Whedon&apos;s The Avengers: Age of Ultron happen because Tony Stark can&apos;t let go. He becomes Iron Man again when the opportunity presents itself to take down Hydra once and for all, but more importantly he&apos;s entirely obsessed with the idea of protecting the world from any outside force that may threaten it. This may seem like a good thing, but any obsession has consequences. Working with Bruce Banner and manipulating the newly discovered Mind Stone, he creates the artificial intelligence Ultron (James Spader) -- but in doing so also introduces the planet to one of the greatest threats it&apos;s ever seen, and the Avengers&apos; newest enemy.
+
+Ultron believes that humanity is a poison that needs to be destroyed, and so he tries to turn the Eastern European nation of Sokovia into a planet-decimating asteroid. Captain America, Thor, Hulk, Black Widow, Iron Man and Hawkeye all must reunite to stop the metallic foe -- but this time around they also find assistance from Vision (Paul Bettany), a living incarnation of Tony&apos;s digital butler Jarvis created by Ultron; Wanda Maximoff a.k.a. Scarlet Witch (Elizabeth Olsen), a telekinetic and energy manipulator; and Pietro Maximoff a.k.a. Quicksilver (Aaron Taylor-Johnson), a speedster. Quicksilver dies in the battle, and Hulk has to fly away, but Earth&apos;s Mightiest Heroes are once again able to save the day.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvengerEndgame</IRI>
+        <Literal>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos&apos; actions and restore balance to the universe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AvengerInfinityWar</IRI>
+        <Literal>The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BlackPanther1</IRI>
+        <Literal>Following the titular character&apos;s introduction in Captain America: Civil War, Ryan Coogler&apos;s Black Panther brings the regal and heroic T&apos;Challa back home to the African nation of Wakanda. He is to be named king following the unexpected death of his father, T&apos;Chaka (John Kani), and fortunately has the support of the Queen Mother, Ramonda (Angela Bassett), his genius younger sister Shuri (Letitia Wright), his bodyguard Okoye (Danai Gurira), and his secret love, Nakia (Lupita Nyong&apos;o). It seems like it should be smooth sailing ascending to the crown, but the situation proves anything but.
+
+T&apos;Challa&apos;s coronation coincides with the arrival of Erik Killmonger (Michael B. Jordan) -- a foreign-born mercenary who also happens to be the son of T&apos;Chaka&apos;s brother. Killmonger believes that the throne of Wakanda rightfully belongs to him, and he challenges T&apos;Challa in ritual combat for the crown -- with visions of exporting Wakanda&apos;s immense resources to the rest of the world and starting a global war. It becomes a successful revolution, as Killmonger takes over the country, but with support from his people the Black Panther fights back. T&apos;Challa is eventually able to rescue his nation from Killmonger&apos;s grip, but also learns something from his cousin&apos;s efforts. After centuries of isolation, he decides that it&apos;s time for Wakanda to open itself up to everybody.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaptainAmericaCivilWar</IRI>
+        <Literal>If you ever wondered why superheroes are allowed to operate free from consequence in global conflicts, Joe and Anthony Russo&apos;s Captain America: Civil War provides the answer. The entire film begins because of the collateral damage caused by The Avengers, as the world agrees to sign The Sokovia Accords: a treaty that demands registration for &quot;enhanced&quot; individuals if they want to operate as heroes. Iron Man, Black Widow, War Machine, and Vision are all for the idea, but it ruffles the feathers of Captain America, Falcon, Hawkeye and Scarlet Witch -- and things are not made better when The Winter Soldier reemerges and is fingered for a terrorist attack.
+
+Captain America strongly believes he is the only one who can safely bring The Winter Soldier in, but trying to do so technically breaks international law. This leads to a massive showdown in Germany -- with Ant-Man, Spider-Man (Tom Holland) and Black Panther (Chadwick Boseman) all recruited for the fight -- and it all ends in disaster. It turns out that the whole plot was a carefully designed revenge scheme orchestrated by a Sokovia survivor named Helmut Zemo (Daniel Bruhl). His ultimate plan is to reveal that The Winter Soldier killed Tony Stark&apos;s parents, creating a divide among the Avengers, and his plan very much succeeds, as the blockbuster ends with half the heroes beaten and defeated, and the other half on the run as fugitives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaptainAmericaTheFirstAvenger</IRI>
+        <Literal>Tony Stark made a spectacle of himself when he announced himself as Iron Man, but the real first superhero of the Marvel Cinematic Universe emerged back in the early 1940s during World War II, as featured in Joe Johnston&apos;s Captain America: The First Avenger. Steve Rogers (Chris Evans) is first shown to be a scrawny kid from Brooklyn who wants nothing more than the opportunity to fight for his country, but is repeatedly told he is unfit for service. His fortunes change, however, when he meets Dr. Abraham Erskine (Stanley Tucci) and is given the Super Soldier Serum -- a chemical that transforms him into the heroic Captain America.
+
+While he is first used as just a propaganda tool, Steve proves his worth when he is able to rescue an entire battalion, including his best friend, Sgt. James &quot;Bucky&quot; Barnes (Sebastian Stan), and he winds up becoming one of the great heroes of the Great War. Unfortunately, this puts him in direct conflict with Erskine&apos;s former creation, Johann Schmidt a.k.a. The Red Skull (Hugo Weaving), the leader of the Nazi deep science division, Hydra. His weapons fueled by a cosmic device called The Tesseract, Red Skull has plans to drop bombs on all the world&apos;s capitals, but it&apos;s a plan that Steve is able to foil by crashing the carrier into the North Pole. He is presumed dead for decades, but the reality is that he is only frozen...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaptainAmericaTheWinterSoldier</IRI>
+        <Literal>Steve Rogers didn&apos;t have much time to adapt to the modern world between being unfrozen and facing down an alien invasion, but in Joe and Anthony Russo&apos;s Captain America: The Winter Soldier he makes a very important discovery: while things once were black and white, modernity is all shades of grey. He commits himself to working for S.H.I.E.L.D., partnering with Black Widow and working under Nick Fury, but it turns out that the organization of &quot;good guys&quot; was infiltrated by Hydra decades earlier.
+
+Captain America and Black Widow find themselves on the run from not just one of the world&apos;s elite spy agencies, but also a ghost from Steve&apos;s past. It turns out that his old pal Bucky didn&apos;t die back during World War II, and has instead been operating as a brainwashed, cryogenically frozen assassin known as The Winter Soldier for decades. Along with the help from a new friend, Sam Wilson a.k.a. Falcon (Anthony Mackie), Cap and Black Widow are successfully able to foil a plot from S.H.I.E.L.D. Secretary Alexander Pierce (Robert Redford), and disable three Hydra Helicarriers designed to assassinate anyone deemed a threat to the evil organization. Following this victory, Steve then goes on the search for his former best friend, convinced he can bring him back to the side of good.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaptainMarvel1</IRI>
+        <Literal>Carol Danvers becomes one of the universe&apos;s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DoctorStrange1</IRI>
+        <Literal>Up until November 2016, the Marvel Cinematic Universe could be primarily describes as a sci-fi franchise, but Scott Derrickson&apos;s Doctor Strange introduced a brand new flavor to the mix: fantasy. In it we first meet Dr. Stephen Strange (Benedict Cumberbatch) as a world-renowned brain surgeon whose ego and arrogance levels compete with Tony Stark. His entire life is dedicated to his work -- but all of that gets flushed away when a horrific car accident damages the nerve endings in his hands.
+
+Searching for some kind of cure, Strange finds himself destitute and desperate in Nepal, where he finds the training institute known as Kamar-Taj. Under the tutelage of The Ancient One (Tilda Swinton), Karl Mordo (Chiwetel Ejiofor), and Wong (Benedict Wong), the hero begins training in the mystic arts, and before long begins to master them. Of course, this kind of power comes with certain responsibilities, and Strange finds himself embroiled in a conflict with a student named Kaecilius (Mads Mikkelson) -- who wishes to open our universe up to the timeless being known as Dormammu. Utilizing an amulet known as the Eye of Agamotto, which is actually the Time Infinity Stone, Strange is able to defeat Dormammu, and takes up residence in New York&apos;s Sanctum Sanctorum as a protector of the Earth from dangerous magical forces.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GuardianOfTheGalaxyVol1</IRI>
+        <Literal>In August 2014, James Gunn offered Marvel fans a very different flavor of blockbuster with Guardians of the Galaxy -- a sci-fi space opera centering on an amoral thief named Peter Quill a.k.a. Star-Lord (Chris Pratt); the most dangerous woman in the universe, Gamora (Zoe Saldana); a brute with a taste for revenge named Drax (Dave Bautista); a perpetually pissed-off, genetically modified rodent named Rocket (Bradley Cooper); and a walking, talking tree named Groot (Vin Diesel).
+
+The adventure begins when Quill steals what seems like a harmless little trinket -- which turns out to be one of the six incredibly powerful Infinity Stones. After being arrested and imprisoned with his four future friends, he begins to devise a plan with them to try and sell it. Unfortunately, the stone is being hunted for by not only the evil lord Thanos (Josh Brolin), but the Kree fanatic Ronan The Accuser (Lee Pace). All seems lost when Ronan acquires the prize from Gamora&apos;s sister, Nebula (Karen Gillan) -- who successfully steals it after nearly killing Gamora -- but the group ultimately comes together to stop Ronan and save an entire planet. Groot is destroyed but reborn, their records are all expunged, and they decide to stick together as a family, ready to face anything that the universe may throw at them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GuardianOfTheGalaxyVol2</IRI>
+        <Literal>James Gunn&apos;s Guardians of the Galaxy Vol. 2 picks up just two months after the end of the previous adventure, and finds the titular team enjoying their newfound fame and success. They&apos;ve used their notoriety to get hero work -- though they find a bit of trouble when Rocket steals some valuable batteries from an alien race known as the Sovereign. It looks like the Guardians may be doomed, but they are saved at the last minute by an alien named Ego (Kurt Russell), who claims to be Star-Lord&apos;s dad.
+
+While Star-Lord (who discovers he&apos;s half god), Gamora, and Drax join Ego and his assistant, Mantis (Pom Klementieff), on a journey to Ego&apos;s home world, Rocket, Groot and the captured Nebula find themselves dealing with Yondu (Michael Rooker) and the Ravagers -- who aim to collect the bounty on the Guardians&apos; heads. The blue-finned leader wishes to go soft on the group, but the situation escalates into a giant mutiny, with Yondu having to kill all his former friends. This all goes down just in the nick of time, because Star-Lord discovers Ego&apos;s plans to remake the universe, and the fact that he was responsible for his mother&apos;s cancer). An epic battle ensues that sees Ego destroyed, but Star-Lord sacrifices his powers, and Yondu sacrifices himself, leading Star-Lord realize who his real father was all along.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IronMan1</IRI>
+        <Literal>When history tells the story of the Marvel Cinematic Universe, the tale will always begin with the introduction of Tony Stark (Robert Downey Jr.) in Jon Favreau&apos;s Iron Man. An engineering prodigy and genius who follows in his father&apos;s footsteps to run the world&apos;s biggest weapons manufacturer, Tony is first presented as a careless playboy only interested in making money. That all changes, however, when he is kidnapped by a deadly terrorist organization demanding his technology. With the help of a fellow hostage, Ho Yinsin (Shaun Toub), he uses his ingenuity to design a suit of armor to escape... but it&apos;s an experience that winds up haunting him.
+
+Tony finds himself unable to live with the idea of his inventions harming innocent lives, and upon returning home he not only shuts down weapons manufacturing at his company, but begins to advance and improve the armor he invented. With the backing of his best friend, Air Force Col. James &quot;Rhodey&quot; Rhodes (Terrence Howard), and his trusty assistant, Pepper Potts (Gwyneth Paltrow), he successfully roots out the man responsible for his kidnapping -- his business partner Obadiah Stane (Jeff Bridges) -- and changes the world forever when he announces that he is actually a superhero: the Iron Man. Of course, as he would learn from S.H.I.E.L.D. Director Nick Fury (Samuel L. Jackson) in a post-credits scene, this was just his first step into a larger world.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IronMan2</IRI>
+        <Literal>Picking up shortly after the events of the first film, Jon Favreau&apos;s Iron Man 2 finds Tony Stark as the most famous man on the planet, but simultaneously dealing with some huge issues. He is in a fight with the government about privatizing world peace; his relationship with Pepper Potts is constantly stressed; he unknowingly hires a spy named Natasha Romanoff (Scarlett Johansson) to be his new assistant; the palladium power source he is using for his suit is slowly poisoning him; and there is a new villain on the scene named Ivan Vanko a.k.a. Whiplash (Mickey Rourke) who has managed to recreate his special arc reactor technology.
+
+The whole experience leads Tony to hit rock bottom -- influencing James &quot;Rhodey&quot; Rhodes (Don Cheadle) to steal an Iron Man suit and become War Machine -- but it&apos;s an experience he bounces back from quickly. The &quot;discovery&quot; of a new element (which happens to be Vibranium) proves to be a positive substitute for palladium and stops the self-poisoning; he begins to repair and respect the personal relationships in his life; and despite Whiplash becoming a serious threat thanks to a partnership with Tony&apos;s business rival, Justin Hammer (Sam Rockwell), he is eventually able to fight and defeat him with the help of his comrades.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IronMan3</IRI>
+        <Literal>The events that went down in The Avengers had an effect on all of the heroes, but Shane Black&apos;s Iron Man 3 shows that Tony Stark was hit hardest of all. After all, the guy was willing to die so that he could stop a nuclear bomb from destroying Manhattan -- and he also witnessed first-hand the kinds of serious threats that exist in the cosmos. He&apos;s having regular panic attacks before the film even starts, and things get so much worse with the arrival of a terrorist known as The Mandarin (Ben Kingsley).
+
+Tony finds himself on an adventure that challenges what kind of hero he is without his armor, while simultaneously facing down serious demons from his past. While investigating the recent rash of terrorist attacks, he discovers that The Mandarin is nothing more than an actor/puppet being manipulated by one of Stark Industries&apos; greatest rivals, Aldrich Killian (Guy Pearce). Having sway over America&apos;s Vice President, Killian attempts to kill the President of the United States (William Sadler), but with help from both Rhodey and Pepper the eponymous hero is able to save the day. Tony makes the decision to surgically remove the arc reactor from his chest, choosing to retire as Iron Man -- but as audiences would find out in the coming years, this is a promise that is basically impossible to keep.</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#MCUMovies</IRI>
@@ -1595,6 +1813,53 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Power</IRI>
         <Literal xml:lang="en">power of superheroes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpiderManFarFromHome</IRI>
+        <Literal>Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever. And Spiderman will face the new hero who comes from another planet named called &quot;Mysterio&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpiderManHomeComing</IRI>
+        <Literal>Young Peter Parker got a taste of the big time superhero life during the events of Captain America: Civil War, but Jon Watts&apos; Spider-Man: Homecoming sees the web-slinging hero return to his more humdrum normal life. He is desperate to prove himself as good enough to join The Avengers, but Tony Stark -- who designed his suit -- refuses to let him off the leash. This is pretty unbearable, but things get even worse when Peter discovers a villainous plot involving the hijacking of alien and advanced technology from the government for the development of black market weapons.
+
+Spider-Man begins to look into the criminal behaviors of Adrian Toomes a.k.a. The Vulture (Michael Keaton), but simultaneously has to hide his secret life from his classmates and Aunt May (Marisa Tomei). He fortunately has an ally in his best friend Ned (Jacob Batalon), and by the end of the film he is legitimately able to save the day -- stopping a plane loaded with Avengers equipment from being stolen by Toomes. It winds up being a hit to his social life, as his crush, Liz Allen (Laura Harrier), is actually the villain&apos;s daughter, but what Peter doesn&apos;t know is that his classmate Michelle a.k.a. M.J. (Zendaya) has a serious crush on him. He also very much grows from the experience, as he has the maturity to turn down Tony Stark&apos;s offer to join the Avengers, and instead remains a friendly neighborhood Spider-Man.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TheAvenger1</IRI>
+        <Literal>With all of their principal heroes introduced, Marvel Studios brought its first crossover vision to life in 2012 with Joss Whedon&apos;s The Avengers. It all starts with The Tesseract, which has been in the possession of S.H.I.E.L.D. since shortly after World War II. It turns out there is a being in the cosmos that wants it, and they decide to send Loki to go get it. Utilizing a special staff that allows him to sway hotshot agent Clint Barton a.k.a. Hawkeye (Jeremy Renner) and Dr. Erik Selvig to his side, the God of Mischief makes plans to open a portal to outer space that will initiate a full-blown alien invasion on Earth. What he doesn&apos;t anticipate, though, is the unification of the planet&apos;s Mightiest Heroes.
+
+Iron Man, Captain America, Thor, Hulk (Mark Ruffalo), Black Widow and Hawkeye don&apos;t really get along at first, but they manage to come together when it really counts. Making brave and bold moves, they refuse to stand down in the face of overwhelming odds -- and while there is a lot of destruction caused during what is later dubbed the Battle of New York, at the end of the day the Avengers are victorious. Loki is taken into custody by Thor and brought back to Asgard... but it&apos;s also revealed for the first time in a foreboding mid-credits sequence that Thanos has started paying attention to the planet.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TheIncredibleHulk</IRI>
+        <Literal>Louis Leterrier&apos;s The Incredible Hulk is the first Marvel Cinematic Universe story to follow Dr. Bruce Banner (Edward Norton), a scientist who has spent years on the run in South America thanks to an experiment gone wrong. Following extreme exposure to gamma radiation, whenever his pulse raises to a high enough level he undergoes a transformation into a huge, green monster that is totally out of his control. Gen. Thaddeus &quot;Thunderbolt&quot; Ross (William Hurt), the father of Bruce&apos;s former girlfriend, Betty (Liv Tyler), wants nothing in the world more than to see him captured -- and figures the only way to actually do it is to create a monster of his own.
+
+When Bruce believes there may be a cure for the Hulk, collaborating with a colleague named Dr. Samuel Sterns (Tim Blake Nelson), he starts to make his way back home -- but all the while finds himself pursued by Ross&apos; enhanced soldier, Emil Blonsky (Tim Roth). The situation becomes much worse when Blonsky, who has become obsessed with Bruce&apos;s monster, convinces Sterns to turn him into an Abomination, but it ultimately proves to be an important test for Bruce. While he still can&apos;t fully control the Hulk, he discovers he can &quot;aim&quot; it, and becomes a hero when he stops Abomination from tearing Harlem apart.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thor1</IRI>
+        <Literal>After three earthbound adventures, it was Kenneth Branagh&apos;s Thor that first introduced audiences to the cosmos of the Marvel Cinematic Universe. The titular God of Thunder (Chris Hemsworth) is first shown as an adult on his coronation day -- set to replace his father, Odin (Anthony Hopkins), as the King of Asgard -- but this big event is interrupted by an unexpected invasion from an old enemy, the Frost Giants. Being impetuous and arrogant, Thor leads his brother Loki (Tom Hiddleston), and his four friends, Sif (Jaimie Alexander), Volstagg (Ray Stevenson), Hogun (Tadanobu Asano) and Fandral (Josh Dallas), for a revenge mission... but it proves to be a foolish and immensely dangerous move. As a result, Odin strips his son of his power and banishes him to Midgard a.k.a. Earth.
+
+It&apos;s eventually revealed that this exile was all part of a manipulative ploy by Loki, but still it proves to be an important experience for Thor. Spending time with scientists Jane Foster (Natalie Portman) and Erik Selvig (Stellan Skarsgard), and their intern Darcy Lewis (Kat Dennings), the God of Thunder begins to learn some humility while questing to retrieve his magic hammer, Mjolnir, and regain his power. After saving a New Mexico town from an Asgardian weapon known as The Destroyer, Thor returns home to stop Loki, though he is unable to do so without stopping his maniacal sibling from falling into the vastness of space and disappearing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThorRagnarok</IRI>
+        <Literal>As depicted in the Marvel Cinematic Universe, Thor has long had some serious family issues -- but they truly all come to a head in Taika Waititi&apos;s Thor: Ragnarok. It starts when the God of Thunder discovers that his brother, Loki, is actually alive and ruling Asgard pretending to be Odin -- but things only get worse from there. Together they only find the real Odin just moments before his death, and that particular event leads to the introduction of Hela (Cate Blanchett), the evil sister that Thor and Loki never knew they had.
+
+It turns out that Odin has been working to keep Hela banished from Asgard for centuries, as she has serious plans to introduce Ragnarok: the end of all things. A quick attempt to stop Hela results in Thor&apos;s hammer being destroyed and the hero being stranded with Loki on Sakaar, a garbage planet where the Hulk happens to have become a gladiator superstar. With the help of the green monster and Valkyrie (Tessa Thompson), an alcoholic former Asgardian, Thor and Loki escape from under the thumb of Sakaar&apos;s oppressive ruler, The Grandmaster (Jeff Goldblum), and return home to try and save their people from Hela. Thor loses an eye in the final battle, but also realizes that Asgard is about a community and not a place -- allowing him to let his homeland be totally destroyed after rescuing as many of his people as he can.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ThorTheDarkWorld</IRI>
+        <Literal>At the start of Alan Taylor&apos;s Thor: The Dark World, Jane Foster is studying a cosmic anomaly in England when she comes upon a material known as the Aether and makes contact with it. This has the effect of bringing Thor back to her side, having spent months trying to bring peace to the Nine Realms, but it also puts her in grave danger. An alien race known as the Dark Elves, commanded by their leader Malekith (Christopher Eccleston), has been searching for the Aether for centuries, and are now closer than ever to finding it.
+
+In order to stop the Dark Elves, Thor finds himself needing the assistance of his brother Loki, who has been locked away in Asgard&apos;s dungeon, and along with Jane they escape to the Dark Elf planet Svartalfheim. Things go from bad to worse when it seems that Loki is killed (he&apos;s not), Malekith gets the Aether, and Thor and Jane are stranded -- but the aforementioned cosmic anomaly saves their skin. Back on Earth, Thor has a showdown with Malekith, the God of Thunder trying to stop darkness spreading across the universe, and a wormhole-filled battle ultimately sees him victorious. In a pair of post-credits scenes, Thor makes his way back to Earth to be with Jane after denying the throne of Asgard, while Volstagg and Sif deliver the Aether, which turns out to be an Infinity Stone, to the being known as The Collector (Benicio Del Toro).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1625,11 +1890,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#originofpower</IRI>
         <Literal xml:lang="en">The origin where superhero&apos;s power comes from.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#powerDetail</IRI>
-        <Literal xml:lang="en">Datail of each superhero&apos;s power.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
