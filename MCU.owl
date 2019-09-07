@@ -94,7 +94,13 @@
         <NamedIndividual IRI="#CaptainMarvel1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ChaosMagic"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CommunicateWithInsect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CyberneticAugmentation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DimensionHopping"/>
@@ -116,6 +122,18 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gamora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genetically-Enhanced"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genius-Level-Intellect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GiftedStrategist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GodPower"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Groot"/>
@@ -157,10 +175,19 @@
         <NamedIndividual IRI="#Magic"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MechanicalGenius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ModularArcReactor-Powered"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Nebula"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#PhotonEnergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhysicalCombat"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#QuickSilver"/>
@@ -181,6 +208,9 @@
         <NamedIndividual IRI="#SkilledFighter"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Spider-Sense"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SpiderMan"/>
     </Declaration>
     <Declaration>
@@ -191,6 +221,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Starlord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SuperhumanStrength"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Superspeed"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Telekinesis"/>
@@ -215,6 +251,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ThorTheDarkWorld"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThunderPower"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vision"/>
@@ -285,7 +324,15 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
+        <NamedIndividual IRI="#ChaosMagic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
         <NamedIndividual IRI="#CommunicateWithInsect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#CyberneticAugmentation"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
@@ -314,6 +361,22 @@
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Gamora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Genetically-Enhanced"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Genius-Level-Intellect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#GiftedStrategist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#GodPower"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -368,12 +431,24 @@
         <NamedIndividual IRI="#Magic"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#MechanicalGenius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#ModularArcReactor-Powered"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Nebula"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
         <NamedIndividual IRI="#PhotonEnergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#PhysicalCombat"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -400,6 +475,10 @@
         <NamedIndividual IRI="#SkilledFighter"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Spider-Sense"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#SpiderMan"/>
     </ClassAssertion>
@@ -414,6 +493,14 @@
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Starlord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SuperhumanStrength"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Superspeed"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
@@ -448,9 +535,17 @@
         <NamedIndividual IRI="#ThorTheDarkWorld"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#ThunderPower"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Vision"/>
     </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#GodPower"/>
+        <NamedIndividual IRI="#ThunderPower"/>
+    </DifferentIndividuals>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#Ant-Man"/>
@@ -857,6 +952,16 @@
         <NamedIndividual IRI="#IronMan1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#Genius-Level-Intellect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <NamedIndividual IRI="#ModularArcReactor-Powered"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#IronMan"/>
         <NamedIndividual IRI="#AvengerAgeOfUltron"/>
@@ -917,6 +1022,16 @@
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Nebula"/>
+        <NamedIndividual IRI="#CyberneticAugmentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Nebula"/>
+        <NamedIndividual IRI="#PhysicalCombat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#Nebula"/>
         <NamedIndividual IRI="#AvengerEndgame"/>
@@ -942,6 +1057,11 @@
         <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <NamedIndividual IRI="#Superspeed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#QuickSilver"/>
         <NamedIndividual IRI="#AvengerAgeOfUltron"/>
@@ -955,6 +1075,16 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#Rocket"/>
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#Genetically-Enhanced"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#MechanicalGenius"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -980,6 +1110,11 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#ScarletWitch"/>
         <NamedIndividual IRI="#AvengerAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#ChaosMagic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -1005,6 +1140,16 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#SpiderMan"/>
         <NamedIndividual IRI="#IronMan2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#Spider-Sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <NamedIndividual IRI="#SuperhumanStrength"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -1037,6 +1182,11 @@
         <NamedIndividual IRI="#SpiderManHomeComing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Starlord"/>
+        <NamedIndividual IRI="#GiftedStrategist"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#Starlord"/>
         <NamedIndividual IRI="#AvengerEndgame"/>
@@ -1062,6 +1212,16 @@
         <NamedIndividual IRI="#Ant-Man1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#TheWasp"/>
+        <NamedIndividual IRI="#CommunicateWithInsect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#TheWasp"/>
+        <NamedIndividual IRI="#SizeManipulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#TheWasp"/>
         <NamedIndividual IRI="#Ant-Man1"/>
@@ -1080,6 +1240,16 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#Thor"/>
         <NamedIndividual IRI="#Thor1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#GodPower"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#ThunderPower"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -1125,6 +1295,21 @@
         <ObjectProperty IRI="#firstIntroductionIn"/>
         <NamedIndividual IRI="#Vision"/>
         <NamedIndividual IRI="#IronMan1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Vision"/>
+        <NamedIndividual IRI="#FlyingWithoutAssistance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Vision"/>
+        <NamedIndividual IRI="#Laserbeam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Vision"/>
+        <NamedIndividual IRI="#SuperhumanStrength"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -1293,8 +1478,18 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#ChaosMagic"/>
+        <Literal>Energy from mind stone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
         <NamedIndividual IRI="#CommunicateWithInsect"/>
         <Literal>ants communicate through psionic/pheromonal/electrical waves transmitted through their antennae in creating cybernetic helmet.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#CyberneticAugmentation"/>
+        <Literal>Cybernetic augmentation from inventor.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#originofpower"/>
@@ -1350,6 +1545,26 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#Gamora"/>
         <Literal>Gamora</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Genetically-Enhanced"/>
+        <Literal>Enhanced in genetic and biologic.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Genius-Level-Intellect"/>
+        <Literal>High intelligent.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#GiftedStrategist"/>
+        <Literal>Ability to think about strategy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#GodPower"/>
+        <Literal>Power of god-being.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1442,6 +1657,26 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Laserbeam"/>
+        <Literal>Laser beam from generator like gem stones or photon energy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Magic"/>
+        <Literal>ancient scripture</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#MechanicalGenius"/>
+        <Literal>high skill of mechanical</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#ModularArcReactor-Powered"/>
+        <Literal>Generating power by modular arc reactor.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#Nebula"/>
         <Literal>Karen Gillan</Literal>
@@ -1455,6 +1690,16 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#Nebula"/>
         <Literal>Nebula</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+        <Literal>the energy carried by a single photon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#PhysicalCombat"/>
+        <Literal>Martial art and combat</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1517,6 +1762,11 @@
         <Literal>Skilled fight comes from their own.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Spider-Sense"/>
+        <Literal>the chemical and genetic of the spider</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#SpiderMan"/>
         <Literal>Tom Holland</Literal>
@@ -1555,6 +1805,21 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#Starlord"/>
         <Literal>Peter Quill</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#SuperhumanStrength"/>
+        <Literal>chemical or genetically modified</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Superspeed"/>
+        <Literal>energy from mind stone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#Telekinesis"/>
+        <Literal>come from magic power</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
@@ -1610,6 +1875,11 @@
         <DataProperty IRI="#year"/>
         <NamedIndividual IRI="#ThorTheDarkWorld"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originofpower"/>
+        <NamedIndividual IRI="#ThunderPower"/>
+        <Literal>it is one of the god power</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1692,6 +1962,11 @@
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ant-Man</IRI>
+        <Literal>Former thief Scott Lang once stole an advanced size-altering suit in order to aid his ailing daughter, only to discover that the stolen tech belonged to the world-renowned Dr. Hank Pym. Seeing the heroic potential within him, Dr. Pym allowed Scott to continue using the suit, as well as the identity Pym once battled evil under. As the Astonishing Ant-Man, Scott now handles the jobs &quot;too small&quot; for any other Super Hero.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Ant-Man1</IRI>
         <Literal xml:lang="en">Scott Lang (Paul Rudd) is introduced to the Marvel Cinematic Universe in Peyton Reed&apos;s Ant-Man hanging pretty close to the bottom rung of society. He has just been released from prison, and while he is a reformed criminal dedicated to doing right by his daughter, nobody will give him a chance. As a result, he is forced to act upon a tip from his former cellmate Luis (Michael Pena), and he decides to burgle the home of noted scientist Dr. Hank Pym (Michael Douglas). Rather than finding any money or valuables, however, what he really gets is a second chance at life.
 
@@ -1726,10 +2001,25 @@ Ultron believes that humanity is a poison that needs to be destroyed, and so he 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BlackPanther</IRI>
+        <Literal>Monarch of the secluded but technologically advanced African nation of Wakanda, King TChalla is the Black Panther; a sacred title that must be both inherited &amp; earned by the current Wakandan ruler. Granted superhuman powers by ceremonially consuming a mystical heart-shaped herb, the Black Panther is responsible for defending his people, and the world, from any threats.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#BlackPanther1</IRI>
         <Literal xml:lang="en">Following the titular character&apos;s introduction in Captain America: Civil War, Ryan Coogler&apos;s Black Panther brings the regal and heroic T&apos;Challa back home to the African nation of Wakanda. He is to be named king following the unexpected death of his father, T&apos;Chaka (John Kani), and fortunately has the support of the Queen Mother, Ramonda (Angela Bassett), his genius younger sister Shuri (Letitia Wright), his bodyguard Okoye (Danai Gurira), and his secret love, Nakia (Lupita Nyong&apos;o). It seems like it should be smooth sailing ascending to the crown, but the situation proves anything but.
 
 T&apos;Challa&apos;s coronation coincides with the arrival of Erik Killmonger (Michael B. Jordan) -- a foreign-born mercenary who also happens to be the son of T&apos;Chaka&apos;s brother. Killmonger believes that the throne of Wakanda rightfully belongs to him, and he challenges T&apos;Challa in ritual combat for the crown -- with visions of exporting Wakanda&apos;s immense resources to the rest of the world and starting a global war. It becomes a successful revolution, as Killmonger takes over the country, but with support from his people the Black Panther fights back. T&apos;Challa is eventually able to rescue his nation from Killmonger&apos;s grip, but also learns something from his cousin&apos;s efforts. After centuries of isolation, he decides that it&apos;s time for Wakanda to open itself up to everybody.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Blackwidow</IRI>
+        <Literal>Natasha Romanoff is the super-spy known as the Black Widow! Trained extensively in the art of espionage and outfitted with state-of-the-art equipment, Black Widow&apos;s combat skills are virtually unmatched. One of S.H.I.E.L.D&apos;s most valuable agents, she has carried out numerous black-ops missions and has recently been assigned by Director Nick Fury to keep an eye on the Avengers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaptainAmerica</IRI>
+        <Literal>During WWII, the patriotic Steve Rogers was offered a place in the military&apos;s top operation: Rebirth. Injected with an experimental super-serum, Rogers emerged from the treatment with heightened endurance, strength, and reaction time. With extensive training and an indestructible Vibranium shield, Rogers soon became the country&apos;s ultimate weapon: CAPTAIN AMERICA! Though frozen in ice during a climactic battle toward the end of the war, Rogers was discovered and revived decades later. Now the living legend continues the war against evil in modern times as a member of The Avengers!</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1754,8 +2044,18 @@ Captain America and Black Widow find themselves on the run from not just one of 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaptainMarvel</IRI>
+        <Literal>A bold leader who doesn&apos;t sugarcoat, Carol is guided by a strong sense of duty and honor. She initially assists the promising heroes on their mission to save the world, then finds she must continue to mentor them. Though Carol has a compassionate heart, it will take some time for her to show it; however, she still has the respect and admiration of the team, especially Kamala, Doreen and Rayshaun. Carol brings the heroes together as an official team and ensures they&apos;re prepared for the challenges ahead.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#CaptainMarvel1</IRI>
         <Literal xml:lang="en">Carol Danvers becomes one of the universe&apos;s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DoctorStrange</IRI>
+        <Literal>Distinguished neurosurgeon Doctor Stephen Strange&apos;s self-important worldview was shattered, along with his steady operating hands, in a fateful car accident. Desperate to heal his injuries and pride, Strange sought out a legendary safe known as the Ancient One, becoming a pupil of the mystic arts. Learning that his true worth had always come from within, Strange uncovered his full potential and was chosen to become the Sorcerer Supreme, the world&apos;s pre-eminent defender against the darkness that lurks beyond.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1763,6 +2063,16 @@ Captain America and Black Widow find themselves on the run from not just one of 
         <Literal xml:lang="en">Up until November 2016, the Marvel Cinematic Universe could be primarily describes as a sci-fi franchise, but Scott Derrickson&apos;s Doctor Strange introduced a brand new flavor to the mix: fantasy. In it we first meet Dr. Stephen Strange (Benedict Cumberbatch) as a world-renowned brain surgeon whose ego and arrogance levels compete with Tony Stark. His entire life is dedicated to his work -- but all of that gets flushed away when a horrific car accident damages the nerve endings in his hands.
 
 Searching for some kind of cure, Strange finds himself destitute and desperate in Nepal, where he finds the training institute known as Kamar-Taj. Under the tutelage of The Ancient One (Tilda Swinton), Karl Mordo (Chiwetel Ejiofor), and Wong (Benedict Wong), the hero begins training in the mystic arts, and before long begins to master them. Of course, this kind of power comes with certain responsibilities, and Strange finds himself embroiled in a conflict with a student named Kaecilius (Mads Mikkelson) -- who wishes to open our universe up to the timeless being known as Dormammu. Utilizing an amulet known as the Eye of Agamotto, which is actually the Time Infinity Stone, Strange is able to defeat Dormammu, and takes up residence in New York&apos;s Sanctum Sanctorum as a protector of the Earth from dangerous magical forces.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gamora</IRI>
+        <Literal>Orphaned as a child when the rest of her species was annihilated, Gamora was found and raised by the tyrant Thanos, who conditioned her to become an unparalleled warrior. Weary of the acts she was forced to commit in her would-be father’s name, Gamora later broke free of her chains. Teaming up with Star-Lord and his motley crew, the “most dangerous woman in the galaxy” now seeks to redeem her past crimes, putting her unparalleled skills to use as a member of the Guardians of the Galaxy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Groot</IRI>
+        <Literal>The last surviving member of a tree-like alien race, Groot is perhaps one of the most unusual beings in all the cosmos. Though calm and quiet in most instances, he is known to unleash his tremendous strength on any enemy foolish enough to threaten his allies, particularly his long- time partner in crime, Rocket. Though he can only vocalize using the phrase, “I am Groot,” the gentle giant’s friends are nevertheless able to understand his exact meaning through his subtle inflections.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1777,6 +2087,21 @@ The adventure begins when Quill steals what seems like a harmless little trinket
         <Literal xml:lang="en">James Gunn&apos;s Guardians of the Galaxy Vol. 2 picks up just two months after the end of the previous adventure, and finds the titular team enjoying their newfound fame and success. They&apos;ve used their notoriety to get hero work -- though they find a bit of trouble when Rocket steals some valuable batteries from an alien race known as the Sovereign. It looks like the Guardians may be doomed, but they are saved at the last minute by an alien named Ego (Kurt Russell), who claims to be Star-Lord&apos;s dad.
 
 While Star-Lord (who discovers he&apos;s half god), Gamora, and Drax join Ego and his assistant, Mantis (Pom Klementieff), on a journey to Ego&apos;s home world, Rocket, Groot and the captured Nebula find themselves dealing with Yondu (Michael Rooker) and the Ravagers -- who aim to collect the bounty on the Guardians&apos; heads. The blue-finned leader wishes to go soft on the group, but the situation escalates into a giant mutiny, with Yondu having to kill all his former friends. This all goes down just in the nick of time, because Star-Lord discovers Ego&apos;s plans to remake the universe, and the fact that he was responsible for his mother&apos;s cancer). An epic battle ensues that sees Ego destroyed, but Star-Lord sacrifices his powers, and Yondu sacrifices himself, leading Star-Lord realize who his real father was all along.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HawkEye</IRI>
+        <Literal>An archer with perfect accuracy and a quiver of trick arrows, Clint Barton&apos;s wit is usually faster than his lightning-quick reflexes! Though this expert archer doesn&apos;t always follow the rules, he long ago proved himself an invaluable member of The Avengers as Hawkeye!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hulk</IRI>
+        <Literal>A massive dose of gamma radiation transformed the brilliant but meek scientist Bruce Banner&apos;s DNA, awakening the hidden, adrenaline-fed hero in his genes... HULK! A hero of few words and incredible strength, the Hulk has long been pursued by those who want to use his immense power for their own purposes, or by those who thought the Jade Giant&apos;s anger was too dangerous to be controlled. Now, as a member of the Avengers, Hulk helps smash the unimaginable threats that no Hero could face alone, hoping to at least prove to the world that he is the strongest HERO there is!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IronMan</IRI>
+        <Literal>When billionaire industrialist Tony Stark dons his sophisticated steel-mesh armor, he becomes a living high-tech weapon - the world&apos;s greatest fighting machine. Tony has primed his ultra modern creation for waging state of the art campaigns, attaining sonic flight, and defending the greater good! He is the Armored Avenger - driven by a heart that is part machine, but all hero! He is the INVINCIBLE IRON MAN!</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1811,8 +2136,33 @@ Tony finds himself on an adventure that challenges what kind of hero he is witho
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nebula</IRI>
+        <Literal>A merciless space pirate, Nebula was taught by her adopted father, the cosmic tyrant Thanos, to achieve victory by any means. Unlike her redeemed foster-sister Gamora, Nebula seeks only power, allying herself with any villain capable of aiding in her schemes. A cunning foe, Nebula has frequently positioned herself as a thorn in the side of her most recurring nemeses, the eclectic Guardians of the Galaxy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Power</IRI>
         <Literal xml:lang="en">power of superheroes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QuickSilver</IRI>
+        <Literal>Pietro and his twin sister, Wanda, were raised by Django and Marya Maximoff, a Roma couple. As adolescents, Pietro Django Maximoff and his sister Wanda discovered that they had peculiar talents. When Django began to steal food to feed his starving family, enraged villagers attacked the Roma camp. Using his phenomenal speed, Pietro fled from the camp with his sister. Over the next few years, Wanda and Pietro wandered Central Europe, living off the land.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rocket</IRI>
+        <Literal>Though he may look like a common Earth raccoon, the temperamental Rocket is in fact a one-of-a-kind genetically produced being, originally created on the planet Halfworld. This diminutive, tough- talking creature is a master pilot, engineer, marksman, and weapons specialist. Previously a small-time thief along with his partner Groot, Rocket lends his genius and heavy artillery to the Guardians of the Galaxy, unable to resist the call of adventure (and plunder).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ScarletWitch</IRI>
+        <Literal>Wanda Maximoff is a native of Sokovia who grew up with her twin brother, Pietro. In an effort to help purge their country of strife, the twins joined HYDRA and agreed to undergo experiments with the Scepter under the supervision of Wolfgang von Strucker, and received superpowers as a result, with Wanda attaining various abilities including telekinesis, telepathy, and energy manipulation. When HYDRA fell, the twins joined Ultron to get their revenge on Tony Stark, but eventually switched sides and joined the Avengers when they discovered Ultron&apos;s true intentions. Although Pietro was killed during the ensuing Ultron Offensive, Wanda survived and became a member of the Avengers. During the Avengers Civil War, she sided with Captain America and was briefly imprisoned in the Raft before Rogers freed her along with his teammates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SpiderMan</IRI>
+        <Literal>The bite from a radioactive spider granted Peter Parker amazing arachnid-like powers. After losing his beloved Uncle Ben to a burglar, grief- stricken Peter vowed to use his incredible abilities to protect his city as the Amazing Spider-Man. Peter’s trials taught him an invaluable lesson: with great power, there must also come great responsibility.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1828,6 +2178,11 @@ Spider-Man begins to look into the criminal behaviors of Adrian Toomes a.k.a. Th
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Starlord</IRI>
+        <Literal>A headstrong intergalactic adventurer, Peter Quill was taken from his Earthly home at a young age, growing up in outer space alongside the pirate-like Ravagers. As the intrepid Star-Lord, Quill travels the cosmos in his spaceship, the Milano, seeking his fortune. Equipped with a high- tech blaster and a mix-tape of music from home, Star-Lord leads an unlikely team of interstellar misfits – the Guardians of the Galaxy – in their attempts to do a little good, a little bad, a little of both!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#TheAvenger1</IRI>
         <Literal xml:lang="en">With all of their principal heroes introduced, Marvel Studios brought its first crossover vision to life in 2012 with Joss Whedon&apos;s The Avengers. It all starts with The Tesseract, which has been in the possession of S.H.I.E.L.D. since shortly after World War II. It turns out there is a being in the cosmos that wants it, and they decide to send Loki to go get it. Utilizing a special staff that allows him to sway hotshot agent Clint Barton a.k.a. Hawkeye (Jeremy Renner) and Dr. Erik Selvig to his side, the God of Mischief makes plans to open a portal to outer space that will initiate a full-blown alien invasion on Earth. What he doesn&apos;t anticipate, though, is the unification of the planet&apos;s Mightiest Heroes.
 
@@ -1839,6 +2194,16 @@ Iron Man, Captain America, Thor, Hulk (Mark Ruffalo), Black Widow and Hawkeye do
         <Literal xml:lang="en">Louis Leterrier&apos;s The Incredible Hulk is the first Marvel Cinematic Universe story to follow Dr. Bruce Banner (Edward Norton), a scientist who has spent years on the run in South America thanks to an experiment gone wrong. Following extreme exposure to gamma radiation, whenever his pulse raises to a high enough level he undergoes a transformation into a huge, green monster that is totally out of his control. Gen. Thaddeus &quot;Thunderbolt&quot; Ross (William Hurt), the father of Bruce&apos;s former girlfriend, Betty (Liv Tyler), wants nothing in the world more than to see him captured -- and figures the only way to actually do it is to create a monster of his own.
 
 When Bruce believes there may be a cure for the Hulk, collaborating with a colleague named Dr. Samuel Sterns (Tim Blake Nelson), he starts to make his way back home -- but all the while finds himself pursued by Ross&apos; enhanced soldier, Emil Blonsky (Tim Roth). The situation becomes much worse when Blonsky, who has become obsessed with Bruce&apos;s monster, convinces Sterns to turn him into an Abomination, but it ultimately proves to be an important test for Bruce. While he still can&apos;t fully control the Hulk, he discovers he can &quot;aim&quot; it, and becomes a hero when he stops Abomination from tearing Harlem apart.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TheWasp</IRI>
+        <Literal>Endowed with the amazing ability to shrink in size and fly, Hope Van Dyne is the newest heroine to bear the name Wasp! Along with her partner Scott Lang, the Astonishing Ant-Man, Wasp battles evil on any scale, proving that true heroism comes in even the smallest sizes!</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thor</IRI>
+        <Literal>Nordic legend tells the tale of the son of Odin, the heir to the throne of Asgard - he is THOR, renowned as the mightiest hero of mythology! Thor&apos;s strength, endurance, and quest for battle are far greater than his Asgardian brethren. The mighty Thor wields an enchanted Uru hammer, Mjolnir, and is master of thunder and lightning.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1860,6 +2225,11 @@ It turns out that Odin has been working to keep Hela banished from Asgard for ce
         <Literal xml:lang="en">At the start of Alan Taylor&apos;s Thor: The Dark World, Jane Foster is studying a cosmic anomaly in England when she comes upon a material known as the Aether and makes contact with it. This has the effect of bringing Thor back to her side, having spent months trying to bring peace to the Nine Realms, but it also puts her in grave danger. An alien race known as the Dark Elves, commanded by their leader Malekith (Christopher Eccleston), has been searching for the Aether for centuries, and are now closer than ever to finding it.
 
 In order to stop the Dark Elves, Thor finds himself needing the assistance of his brother Loki, who has been locked away in Asgard&apos;s dungeon, and along with Jane they escape to the Dark Elf planet Svartalfheim. Things go from bad to worse when it seems that Loki is killed (he&apos;s not), Malekith gets the Aether, and Thor and Jane are stranded -- but the aforementioned cosmic anomaly saves their skin. Back on Earth, Thor has a showdown with Malekith, the God of Thunder trying to stop darkness spreading across the universe, and a wormhole-filled battle ultimately sees him victorious. In a pair of post-credits scenes, Thor makes his way back to Earth to be with Jane after denying the throne of Asgard, while Volstagg and Sif deliver the Aether, which turns out to be an Infinity Stone, to the being known as The Collector (Benicio Del Toro).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vision</IRI>
+        <Literal>Driven by an extremely lifelike artificial intelligence and possessing a nearly indestructible robotic body, the synthetic android called the Vision has taken his place among Earth’s Mightiest Heroes, the Avengers! In addition to his surprisingly human personality, the Vision exhibits an impressive compliment of abilities, including flight, complete control over his molecular density and the ability to fire energy blasts from the jewel on his forehead.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
